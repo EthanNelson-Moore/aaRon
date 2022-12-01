@@ -77,7 +77,7 @@ overlapBoundaries <- function(query, subject, distance=10000, boundary=c("both",
 #' @export
 #'
 #' @importFrom GenomicRanges width strand strand<- findOverlaps
-#' @importFrom IRanges subjectHits queryHits
+#' @importFrom S4Vectors subjectHits queryHits
 #'
 #' @author Aaron Statham <a.statham@@garvan.org.au>
 overlapRegions <- function(query, subject) {

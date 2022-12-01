@@ -2,13 +2,13 @@
 #'
 #' Cleans up a \code{GRanges} object
 #'
-#' @param x A \code{GRanges} objext
+#' @param x A \code{GRanges} object
 #' @return Reduced \code{GRanges} with no strand or element metadata
 #'
 #' @export
 #'
 #' @importFrom GenomicRanges reduce
-#' @importFrom IRanges endoapply
+#' @importFrom S4Vectors endoapply
 #'
 #' @author Aaron Statham <a.statham@@garvan.org.au>
 strip <- function(x) {
@@ -20,7 +20,7 @@ strip <- function(x) {
 #'
 #' Remove element metadata from a GRanges object
 #'
-#' @param x A \code{GRanges} objext
+#' @param x A \code{GRanges} object
 #' @return \code{x} with no element metadata
 #'
 #' @export
@@ -37,7 +37,7 @@ unvalue <- function(x) {
 #'
 #' Remove strand data from a GRanges object
 #'
-#' @param x A \code{GRanges} objext
+#' @param x A \code{GRanges} object
 #' @return \code{x} with strand set to '*'
 #'
 #' @export

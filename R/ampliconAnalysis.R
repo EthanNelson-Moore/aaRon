@@ -68,10 +68,10 @@ ampliconGRanges <- function(x, genome, mc.cores=1) {
 #'
 #' @export
 #'
-#' @importFrom GenomicRanges GRangesList GRanges seqnames start end strand values countOverlaps resize subsetByOverlaps
+#' @importFrom GenomicRanges GRangesList GRanges seqnames start end strand values countOverlaps resize
 #' @importFrom GenomeInfoDb seqlevels
-#' @importFrom IRanges IRanges endoapply elementNROWS %over% cbind as.data.frame
-#' @importFrom S4Vectors DataFrame
+#' @importFrom IRanges IRanges elementNROWS %over% cbind as.data.frame subsetByOverlaps
+#' @importFrom S4Vectors DataFrame endoapply
 #' @importFrom Biostrings getSeq complement letterFrequency
 #' @importFrom parallel mclapply
 #' @importFrom GenomicAlignments readGAlignments pileLettersAt cigar
@@ -191,7 +191,7 @@ ampliconAnalysis <- function(amplicons, bams, genome, paired=TRUE, minCov=50, mi
 #' @export
 #'
 #' @importFrom GenomicRanges GRangesList seqnames countOverlaps split findOverlaps values
-#' @importFrom IRanges subjectHits
+#' @importFrom S4Vectors subjectHits
 #' @importMethodsFrom GenomicRanges range
 #'
 #' @author Aaron Statham <a.statham@@garvan.org.au>

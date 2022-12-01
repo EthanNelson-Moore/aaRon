@@ -15,8 +15,8 @@
 #' @return Create a heatmap of methylation
 #'
 #' @importFrom RColorBrewer brewer.pal
-#' @importFrom GenomicRanges subsetByOverlaps GRanges
-#' @importFrom IRanges IRanges
+#' @importFrom GenomicRanges GRanges
+#' @importFrom IRanges IRanges subsetByOverlaps
 #' @importFrom Gviz DataTrack GenomeAxisTrack AnnotationTrack plotTracks chromosome<-
 #' @importFrom S4Vectors endoapply
 #' @importFrom GenomeInfoDb seqnames
