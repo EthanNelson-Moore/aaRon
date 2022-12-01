@@ -9,11 +9,11 @@
 #'
 #' @export
 #'
-#' @importFrom IRanges values
 #' @importFrom Repitools genomeBlocks
 #' @importFrom GenomeInfoDb seqlevels
 #' @importFrom Biostrings letterFrequency
-#' @importFrom GenomicRanges countOverlaps subsetByOverlaps
+#' @importFrom GenomicRanges countOverlaps
+#' @importFrom IRanges subsetByOverlaps
 #' @importFrom matrixStats colMedians
 #' @importFrom reshape2 melt
 #' @importFrom ggplot2 ggplot aes ggtitle xlab ylab geom_line expand_limits

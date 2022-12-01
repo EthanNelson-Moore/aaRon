@@ -10,7 +10,6 @@
 #'
 #' @export
 #'
-#' @importFrom IRanges values
 #' @importFrom ggplot2 ggplot aes ggtitle xlab ylab geom_line xlim scale_color_manual
 #' 
 #' @author Aaron Statham <a.statham@@garvan.org.au>
