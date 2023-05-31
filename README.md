@@ -4,11 +4,11 @@ A collection of R functions I use day-to-day in analysing various next-generatio
 
 # Installation
 
-To get the Rhie Lab fork from github:
+To get my fork from github:
 
 ```R
 # install.packages("devtools")
-devtools::install_github("rhielab/aaRon")
+devtools::install_github("EthanNelson-Moore/aaRon")
 ```
 
 # Vignettes
